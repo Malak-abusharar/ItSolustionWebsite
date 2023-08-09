@@ -1,0 +1,41 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding-left: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo {
+  padding: 20px;
+}
+
+.main-list {
+  color: black;
+}
+
+.support{
+  border: 3px solid rgba(74, 58, 255, 1);
+  border-radius: 5px;
+}
+
+/* .nav-wrapper {
+  padding: 20px; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color:rgba(255, 255, 255, 1) ;
+} */
+
+
+
+
+
+
+

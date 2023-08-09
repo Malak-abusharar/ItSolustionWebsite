@@ -1,0 +1,17 @@
+.nav-pills .nav-link{
+  border-radius: 0;
+  color: #000000;
+}
+.nav-pills .nav-item:not(:nth-last-child(1)) .nav-link{
+  border-right: 1px solid white;
+}
+
+.image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+  .image-container img {
+   width: 30px;
+   height: 800px;
+  }

@@ -1,0 +1,64 @@
+  /* company */
+  .container-company {
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgba(251, 251, 255, 1);
+    /* width: 1400px; */
+    width: 100%;
+    margin-bottom: 50px;
+  
+  }
+  .our-company {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  .container-company  p{
+    color:rgba(0, 0, 0, 0.6);
+  } 
+  .container-company  a{
+    margin-top: 30px;
+  } 
+
+  .company-facts {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+  }
+   p {
+  color:rgba(0, 0, 0, 0.6);
+  }
+  .section-company {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+    /* background-color: white; */
+    /* width: 50px; */
+    /* height: 40px; */
+  }
+  
+  .section-company:last-child {
+    margin-right: 0;
+  }
+  .section-company h1 {
+    color: black;
+  }
+  .section-company img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .section-company h4 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .section-company p {
+    color: #666;
+    font-size: 14px;
+  }    
+  /* end company*/

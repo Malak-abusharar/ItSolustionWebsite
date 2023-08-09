@@ -1,0 +1,149 @@
+  /* footer */
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(15, 122, 211, 1);
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  .footer-part1{
+    display: flex;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+  }
+  .footer-part1 h2 {
+    margin-right: 40px;
+  }
+  
+    .footer-part2{
+      display: flex;
+      margin: 40px;
+    }
+  
+
+  .button-start{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(15, 122, 211, 1);
+    padding: 30px;
+    border: none;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: 300px;
+  }
+  .footer__addr {
+    margin-right: 150px;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+  
+  .email-address input{
+    border: none;
+    width: 180px;
+    height: 40px;
+    background-color: rgba(19, 128, 208, 1);
+    border-radius: 8px;
+  
+  }
+  .box::placeholder {
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .email-address button{
+    padding: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    color:  rgba(19, 128, 208, 1);
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 8px;
+  
+  }
+  
+  .email-address::placeholder {
+    color: white;
+  }
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .footer__nav  button{
+border: none;
+color: white;
+background-color: rgba(15, 122, 211, 1);
+font-size: 19px;
+padding-top: 15px;
+  }
+  
+  .nav__ul{
+    margin-right: 150px;
+  }
+
+.footer-part3  button{
+  border: none;
+  color: white;
+  background-color: rgba(15, 122, 211, 1);
+  font-size: 19px;
+  padding-top: 15px;
+    }
+
+
+
+
+    .footer-part3 {
+   margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 19px;
+}
+
+.nav-start {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-start li {
+  margin-right: 10px;
+}
+
+.legal {
+  flex: 1;
+  text-align: center;
+}
+
+  .social {
+    display: flex;
+    gap: 20px;
+    font-size: 26px;
+  }
+

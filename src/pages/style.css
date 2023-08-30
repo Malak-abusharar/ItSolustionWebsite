@@ -33,7 +33,6 @@ h2{
     color: rgba(255, 98, 98, 1);
   }
   .btn-start{
-    padding: 80px;
     margin-top: 30px;
       width: 120px;
       background-color: rgba(74, 58, 255, 1);
@@ -48,7 +47,7 @@ h2{
     }
   
   .info-span{
-    padding: 80px;
+    padding: 170px;
 
   }
   .info-span h1{
@@ -758,7 +757,7 @@ border: 5px solid white;
       align-items: center;
       gap: 10px;
       width: 220px;
-    
+    margin-bottom: 10px;
     } 
 
     .con {
@@ -773,14 +772,14 @@ border: 5px solid white;
     .con-em {
       flex-basis: 200px;
       height: 100px;
-      padding: 12px;
+      padding: 20px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       border-radius: 8px;
     }
     
     .con-ph {
       text-align: center;
-      padding: 12px;
+      padding: 20px;
       height: 100px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
       border-radius: 8px;

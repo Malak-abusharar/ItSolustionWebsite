@@ -52,15 +52,13 @@ const Home = () => {
   <div className="con">
     <div className="con-add">
       <div className="con-item">
-        {/* <i className='bx bx-location-plus'></i> */}
-        <i className='bx bx-location-plus'></i> 
+        <i className='bx bx-map bx-sm text-primary'></i>
         <h5 style={{color: 'black'}}>Address:</h5>
       </div>
       <p>28 Division St, New York, <br />NY 10002, USA</p>
     </div>
     <div className="con-em">
       <div className="con-item">
-      {/* <i className='bx bx-envelope'></i>  */}
       <i className='bx bx-envelope bx-sm text-primary'></i>
         <h5 style={{color: 'black'}}>Email:</h5>
       </div>

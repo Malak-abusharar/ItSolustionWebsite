@@ -31,15 +31,15 @@ const Customer = () => {
         }}
         breakpoints={{
           640: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 20,
           },
           768: {
-            slidesPerView: 4,
+            slidesPerView: 1,
             spaceBetween: 40,
           },
           1024: {
-            slidesPerView: 5,
+            slidesPerView: 1,
             spaceBetween: 50,
           },
         }}
@@ -70,6 +70,30 @@ const Customer = () => {
           </div>
         </SwiperSlide>
 
+        <SwiperSlide>
+        <img src={image3} alt="Image" /> 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div className="stars">
+          <i className='bx bxs-star' style={{ color: '#f6ee0d' }}></i>
+          <i className='bx bxs-star' style={{ color: '#f6ee0d' }}></i>
+          <i className='bx bxs-star' style={{ color: '#f6ee0d' }}></i>
+          <i className='bx bxs-star' style={{ color: '#f6ee0d' }}></i>
+          <i className='bx bxs-star' style={{ color: '#f6ee0d' }}></i>
+          </div>
+
+        </SwiperSlide>
+        <SwiperSlide>
+        <img src={image3} alt="Image" /> 
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div className="stars">
+          <i className='bx bxs-star' style={{ color: '#f6ee0d' }}></i>
+          <i className='bx bxs-star' style={{ color: '#f6ee0d' }}></i>
+          <i className='bx bxs-star' style={{ color: '#f6ee0d' }}></i>
+          <i className='bx bxs-star' style={{ color: '#f6ee0d' }}></i>
+          <i className='bx bxs-star' style={{ color: '#f6ee0d' }}></i>
+          </div>
+
+        </SwiperSlide>
         <SwiperSlide>
         <img src={image3} alt="Image" /> 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
